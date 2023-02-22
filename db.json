@@ -1,0 +1,27 @@
+{
+  "user": [
+    {
+      "userId": 1,
+      "id": 1,
+      "title": "Good Morning",
+      "body": "“Good morning!!! Hope your day is filled with joy and happiness.”"
+    },
+    {
+      "userId": 1,
+      "id": 2,
+      "title": "Good Afternoon update",
+      "body": "I wish you a lovely afternoon and a beautiful day."
+    },
+    {
+      "userId": 1,
+      "id": 3,
+      "title": "Good Night : )",
+      "body": "As the day turns into night, keep your worries out of sight."
+    },
+    {
+      "title": "Good evening",
+      "body": "\"Hello have a awesome evening\"",
+      "id": 4
+    }
+  ]
+}
