@@ -1,3 +1,7 @@
+body{
+    background-color: #000000 !important;
+}
+
 .head{
     background-color: #16181d;
     color: whitesmoke;
@@ -16,4 +20,65 @@
 
 .btnColor{
     background-color: #61dafb !important;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.ui.container,
+.container{
+    display: flex;
+    margin : 10px 30% !important;
+    margin-left: 20% !important;
+    margin-right: 20% !important;
+}
+
+.container .navigationBar{
+    width : 20%;
+    background-color: #000000;
+}
+
+.container .navigationBar ul li{
+    list-style: none;
+    margin : 5px;
+    padding : 7px;
+    transition: 300ms;
+    color: #fff;
+}
+
+.menu{
+    background-color: #000000 !important;
+}
+
+.container .feed{
+    width: 100%;
+}
+
+.container .feed .postCard{
+    background-color: #171717;
+    margin: 10px;
+    display: inline-block;
+    border: solid 1px #000 !important;
+    width: 60%;
+    padding: 10px;
+    color: #fff;
+    
+}
+.addContainer .addFeed .addPostCard{
+    margin : 10px 30% !important;
+    margin-left: 20% !important;
+    margin-right: 20% !important;
+    background-color: #171717;
+    margin: 30px;
+    display: inline-block;
+    border: solid 1px #000 !important;
+    width: 60%;
+    padding: 60px;
+    color: #fff;
+}
+
+.container .feed .postCard .Header.header{
+    color: #fff;
 }

@@ -1,8 +1,9 @@
-import userReducer from './reducer'
-import {combineReducers} from 'redux'
+import userReducer, { CommentReducer } from './reducer'
+import {combineReducers,} from 'redux'
 
 const rootReducer = combineReducers({
-    data : userReducer
+    data : userReducer,
+    comment :CommentReducer
 })
 
 export default rootReducer

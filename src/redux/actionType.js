@@ -3,3 +3,6 @@ export const DELETE_USER ="DELETE_USER";
 export const ADD_USER="ADD_USER";
 export const GET_SINGLE_USER="GET_SINGLE_USER"
 export const UPDATE_USER ="UPDATE_USER"
+export const ADD_COMMENT ="ADD_COMMENT";
+export const GET_COMMENT ="GET_COMMENT"
+export const DELETE_COMMENT="DELETE_COMMENT"

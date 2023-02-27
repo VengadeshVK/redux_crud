@@ -5,6 +5,7 @@ import { createStore } from 'redux'
 import { Provider } from 'react-redux'
 import { BrowserRouter } from 'react-router-dom'
 import store from "./redux/store";
+import 'react-toastify/dist/ReactToastify.css'
 
 ReactDOM.render(
     <BrowserRouter>
