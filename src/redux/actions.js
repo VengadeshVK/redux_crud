@@ -66,7 +66,7 @@ export const addUser =  (user)=>{
         .then((response)=>{
             console.log("From add user Id",id,"Response",response.data)
             dispatch(userAdded())
-            dispatch(loadUser())
+            // dispatch(loadUser())
         }).catch((error)=>console.log(error))        
     }
 }

@@ -82,3 +82,7 @@ body{
 .container .feed .postCard .Header.header{
     color: #fff;
 }
+.comment{
+    width: 60%;
+    color: white;
+}

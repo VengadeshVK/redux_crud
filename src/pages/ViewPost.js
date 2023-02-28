@@ -44,7 +44,7 @@ function ViewPost() {
                     </div>
                 </div>
             ))
-                : <div className='feedBG'> "No comments " </div>}
+                : <div className='comment center'> "No comments " </div>}
         </>
     )
 }

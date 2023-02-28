@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { Form, Button, } from 'semantic-ui-react'
 import { useNavigate } from 'react-router-dom'
 import { useDispatch } from 'react-redux'
-import { addUser } from '../redux/actions'
+import { addUser,loadUser } from '../redux/actions'
 import { toast } from "react-toastify"
 
 function AddUser() {
@@ -27,6 +27,7 @@ function AddUser() {
         else {
             dispatch(addUser(state))
             toast.success("Post added succesfully")
+            dispatch(loadUser())
             navigate('/')
         }
     }

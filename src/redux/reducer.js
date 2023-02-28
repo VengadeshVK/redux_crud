@@ -35,17 +35,17 @@ const userReducer = (state = initialState, action) => {
                 user: action.payload,
                 loading: false
             }
-        case types.ADD_COMMENT:
-            return {
-                ...state,
-                loading: false,
-            }
-        case types.GET_COMMENT:
-            return {
-                ...state,
-                users: action.payload,
-                loading: false,
-            }
+        // case types.ADD_COMMENT:
+        //     return {
+        //         ...state,
+        //         loading: false,
+        //     }
+        // case types.GET_COMMENT:
+        //     return {
+        //         ...state,
+        //         users: action.payload,
+        //         loading: false,
+        //     }
         default:
             return state
     }
